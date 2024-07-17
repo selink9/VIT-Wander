@@ -1,0 +1,61 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    height: 82.75vh;
+    background-image: url("Group\ 152.png");
+    background-repeat: no-repeat; 
+    background-position-x: right;
+    background-size: contain;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-left: 30px;
+    
+    
+    
+}
+.rectangle{
+    position: relative;
+    min-height: 69vh;
+    display: flex;
+    max-width: 16vw;
+    flex-direction: column;
+    gap: 12px;
+    background-image: url(Rectangle\ 180.png);
+    background-size:contain ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position-y: 45px;
+}
+
+.image {
+    max-width: 191px;
+    background-color: rgba(217, 217, 217, 1);
+    max-height: 42px;
+    text-align: center;
+    padding: 20px ;
+}
+
+#Explore {
+    font-size: 25px;
+    text-align: right;
+    font-weight: lighter;
+}
+
+#Top_section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px 15px;
+
+}
+
+#Places {
+    font-size: 60px;
+    padding: 1px 15px;
+    font-weight: bold;
+}
